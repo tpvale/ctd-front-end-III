@@ -62,7 +62,6 @@ export function SetimaAula() {
 
             <div className="tittle-wrapper">
                 <h1>Produtos</h1>
-                {/* <button onClick={addNewProduct}>Adicionar novo produto</button> */}
             </div>
 
             <form className={formularioErro ? 'form-error' : ''} onSubmit={event => cadastrarProduto(event)}>
